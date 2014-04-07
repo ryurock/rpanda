@@ -121,6 +121,7 @@ GEM
     jquery-turbolinks (2.0.2)
       railties (>= 3.1.0)
       turbolinks
+    json (1.8.1)
     kaminari (0.15.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
@@ -261,6 +262,9 @@ GEM
     turbolinks (2.2.2)
       coffee-rails
     tzinfo (0.3.39)
+    uglifier (2.5.0)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     unicode-display_width (0.1.1)
     yard (0.8.7.4)
 
@@ -310,3 +314,4 @@ DEPENDENCIES
   spring
   therubyracer
   turbolinks
+  uglifier

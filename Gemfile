@@ -74,6 +74,9 @@ gem 'rack-mini-profiler'
 # Hash extensions
 gem 'hashie'
 
+gem 'uglifier'
+
+
 group :development do
   # Converter erb => haml
   gem 'erb2haml'
