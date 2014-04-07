@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Rpanda::Application.config.secret_key_base = '7212bcbeec6c6a7fde929ed6a6e87e149b185e205571006c573d2bb4480ab0a21ca0e13fc713c8d0a82583ee3c07c494435ee3f09d4cbe12b2d69816e672ea1c'
+Rpanda::Application.config.secret_key_base = ENV['SECRET_KEY_BASE'] || '7212bcbeec6c6a7fde929ed6a6e87e149b185e205571006c573d2bb4480ab0a21ca0e13fc713c8d0a82583ee3c07c494435ee3f09d4cbe12b2d69816e672ea1c'
